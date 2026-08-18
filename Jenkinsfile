@@ -3,12 +3,12 @@ pipeline {
   stages {
     stage('compile') {
       steps {
-        sh 'pyc helloworld.py'
+        sh 'pythonc helloworld.py'
       }
     }
     stage('Run'){
       steps {
-        sh'py helloworld'
+        sh'python helloworld'
       }
     }
   }
