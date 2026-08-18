@@ -5,7 +5,7 @@ pipeline {
     stages {
         stage('Run Python') {
             steps {
-                sh 'python3 hello.py'
+                sh 'python3 helloworld.py'
             }
         }
     }
