@@ -1,6 +1,6 @@
 pipeline{
   agent any
-  stage {
+  stages{
     stage('compile'){
       steps{
         sh 'javac helloworld.jav'
